@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Passer commande | EZINE EL GHALI Annaba</title><meta name="description" content="EZINE EL GHALI, agence publicitaire à Annaba depuis 2017. T-shirts, polos, sweats, casquettes, tote bags, mugs, cartes de visite, flyers, habillage vitrine et panneaux publicitaires.">
+<meta name="keywords" content="agence publicitaire Annaba, articles personnalisés, t-shirts, mugs, flyers, cartes de visite, habillage vitrine, panneaux publicitaires">
+<link rel="icon" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Pinyon+Script&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header id="header"></header>
+<main><section class="ph"><div class="wrap"><h1>Votre demande de commande</h1><p>Remplissez le formulaire, nous vous répondons rapidement avec un devis.</p></div></section>
+<section class="sec" style="padding-top:30px"><div class="wrap" style="max-width:820px">
+<div class="sel" id="sel"></div>
+<form id="formulaire">
+<label>Nom et prénom *<input name="nom" required autocomplete="name"></label>
+<label>Nom de l'entreprise<input name="entreprise" autocomplete="organization"></label>
+<label>Téléphone *<input name="tel" type="tel" required autocomplete="tel"></label>
+<label>Email<input name="email" type="email" autocomplete="email"></label>
+<label class="full">Adresse / Wilaya *<input name="adresse" required></label>
+<label>Produit demandé *<select id="produit" name="produit" required></select></label>
+<label id="l-qte">Quantité *<input name="quantite" type="number" min="1" value="1"></label>
+<label id="l-couleur">Couleur souhaitée<input name="couleur" placeholder="Ex : noir, blanc, beige"></label>
+<label id="l-taille">Taille<select name="taille"><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option><option>Plusieurs tailles</option></select></label>
+<label id="l-dim" class="hide full">Dimensions approximatives<input name="dimensions" placeholder="Ex : 3 m x 1 m"></label>
+<label class="full">Description de la personnalisation *<textarea name="perso" rows="4" required placeholder="Texte, logo, emplacement, couleurs, style souhaité…"></textarea></label>
+<label class="full">Message supplémentaire<textarea name="message" rows="3"></textarea></label>
+<label class="chk full"><input type="checkbox" name="logo" value="oui"> J'ai déjà un logo (vous pourrez l'envoyer par WhatsApp ou email)</label>
+<div class="full"><button class="btn" type="submit">Envoyer ma demande</button></div>
+</form>
+<div class="merci hide" id="merci"><h2>Merci pour votre demande</h2><p>Notre équipe vous contactera prochainement pour confirmer les détails de votre commande.</p><a class="btn" href="index.html">Retour à l'accueil</a></div>
+</div></section></main>
+<footer id="footer"></footer>
+<script src="js/script.js"></script></body></html>

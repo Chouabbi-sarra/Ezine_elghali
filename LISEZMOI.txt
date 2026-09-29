@@ -1,0 +1,7 @@
+EZINE EL GHALI - mode d'emploi
+1. Ouvrez le dossier dans VS Code, lancez index.html (extension Live Server conseillée).
+2. js/script.js : tout en haut (CONFIG) modifiez numéro, email, réseaux sociaux, produits.
+3. Recevoir les demandes par email : créez un compte gratuit sur formspree.io, collez l'URL dans CONFIG.formspree.
+   Les demandes arrivent toujours aussi par WhatsApp (0675207822).
+4. Remplacez les images de /images par vos vraies réalisations (mêmes noms de fichiers).
+5. Mettez le site en ligne : Netlify, Vercel ou GitHub Pages (gratuits).
